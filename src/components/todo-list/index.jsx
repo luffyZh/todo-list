@@ -6,20 +6,10 @@ const TodoListContainer = styled.div`
 `;
 
 const TodoList = ({ todos, deleteTodo, toggleTodo }) => {
-  
-  const handleDelete = (id) => {
-    console.log(`Deleting todo with id: ${id}`);
-    deleteTodo(id);
-  };
-
-  const handleToggle = (id) => {
-    toggleTodo(id);
-  };
-
   return (
     <TodoListContainer>
       {todos.map((todo) => (
-        <TodoItem key={todo.id} todo={todo} handleDelete={handleDelete} handleToggle={handleToggle} />
+        <TodoItem key={todo.id} todo={todo} handleDelete={deleteTodo} handleToggle={toggleTodo} />
       ))}
     </TodoListContainer>
   );
