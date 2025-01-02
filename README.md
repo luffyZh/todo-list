@@ -147,4 +147,4 @@ const TodoItem = ({ todo, handleDelete, handleToggle }) => {
 export default TodoItem;
 ```
 
-至此，一个简易版的 TODOList 就完成了。接下来，给同学们留作业，作业内容就是完成所有的加分项目。
+至此，一个简易版的 TODOList 就完成了。接下来，给同学们留作业，作业内容就是完成所有的加分项目，比如缓存相关的 localStorage 我们昨天的课程已经讲解过了。那么唯一的问题就是同学面试的话要掌握哪些内容，我这边会列举一些，然后给对应需要的同学，就不在这里浪费大家的时间了。
